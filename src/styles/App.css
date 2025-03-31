@@ -1,25 +1,32 @@
-h1 {
-  /* add styling to name heading */
+body {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.custom-font {
-  font-family: "Pixelify Sans", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
 }
 
-.footer {
+h1,
+h2,
+p {
+  color: white;
+}
+
+#footer {
+  /* push about me to bottom */
   animation: bounce;
   animation-delay: 2s;
   animation-iteration-count: infinite;
 }
 
-.fa-arrow-right {
-  transform: rotate(90deg);
-}
-
-body {
-  background-image: url(../images/background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+.custom-font {
+  font-family: "Pixelify Sans";
+  font-weight: 500;
 }
