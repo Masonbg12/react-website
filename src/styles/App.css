@@ -2,28 +2,20 @@ body {
   background-image: url(../images/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.Container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 100vh;
-}
-
-h1,
-h2,
-p {
   color: white;
 }
 
-#footer {
-  /* push about me to bottom */
-  animation: bounce;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  animation: bounce 2s infinite;
 }
 
 .custom-font {

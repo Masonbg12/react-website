@@ -6,38 +6,48 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   return (
     <div>
-      <section>
-        <Container className="Container">
-          <Row>
-            <h1 className="custom-font">Mason Gillespie</h1>
+      <Container>
+        <section>
+          <Row className="mt-auto">
+            <h1 className="display-1 custom-font">Mason Gillespie</h1>
           </Row>
           <Row>
-            <h2 className="custom-font">Software Engineering</h2>
+            <h2 className="display-6 custom-font">Software Engineering</h2>
           </Row>
           <Row>
             <Navigation />
           </Row>
-          <Row>
-            <p id="footer" className="custom-font">
-              About Me
-            </p>
+          <Row className="mt-auto">
+            <div className="footer">
+              <FontAwesomeIcon
+                className="me-2"
+                icon={faArrowRight}
+                rotation={90}
+              />
+              <p className="custom-font">About Me</p>
+              <FontAwesomeIcon
+                className="ms-2"
+                icon={faArrowRight}
+                rotation={90}
+              />
+            </div>
           </Row>
-        </Container>
-      </section>
-      <section>
-        <Container>
-          <Row>
-            <Image src={profilepic} rounded fluid />
-          </Row>
-          <Row>
-            <AboutMe />
-          </Row>
-        </Container>
-      </section>
+        </section>
+      </Container>
+      <Container>
+        <Row>
+          <Image src={profilepic} rounded fluid />
+        </Row>
+        <Row>
+          <AboutMe />
+        </Row>
+      </Container>
     </div>
   );
 }
