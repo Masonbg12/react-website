@@ -40,11 +40,11 @@ function Home() {
           </Row>
         </section>
       </Container>
-      <Container>
-        <Row>
-          <Image src={profilepic} rounded fluid />
+      <Container className="bio">
+        <Row className="w-75">
+          <Image src={profilepic} roundedCircle />
         </Row>
-        <Row>
+        <Row className="aboutMe">
           <AboutMe />
         </Row>
       </Container>
