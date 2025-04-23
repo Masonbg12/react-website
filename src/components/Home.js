@@ -2,10 +2,7 @@ import "../styles/App.css";
 import Navigation from "./Navigation";
 import AboutMe from "./AboutMe";
 import profilepic from "../images/profile_pic.JPG";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
+import { Container, Row, Image } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
