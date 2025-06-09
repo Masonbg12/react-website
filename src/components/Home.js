@@ -61,7 +61,7 @@ function Home() {
               />
             </div>
         </Row>
-        <Row className="justify-content-center">
+        <Row className="justify-content-center bg-light">
           <Col xs={12} className="text-center">
           <a
               href="https://docs.google.com/document/d/1eRqe_0ns3AVT1pVvMx1tjadKnTBAivWp/export?format=pdf"
