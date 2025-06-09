@@ -5,31 +5,31 @@ body {
   color: white;
 }
 
-section {
+.full-center {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  justify-content: center;
 }
 
-.footer {
+.animation {
   display: flex;
   flex-direction: row;
   animation: bounce 2s infinite;
+  margin-bottom: 1rem;
 }
 
 .bio {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-}
-
-.aboutMe {
-  margin-top: 5%;
-  text-align: center;
 }
 
 .custom-font {
   font-family: "Pixelify Sans";
   font-weight: 500;
+}
+
+.responsive-text {
+  font-size: 1rem;
 }

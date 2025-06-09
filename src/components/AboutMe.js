@@ -2,7 +2,7 @@ import "../styles/App.css";
 
 function AboutMe() {
   return (
-    <p>
+    <p className="responsive-text">
       Howdy and welcome to my page! I am a dedicated software engineer with a
       strong foundation in many coding languages and industry standard
       practices. A proud graduate of the University of Texas at Dallas, I hold a
