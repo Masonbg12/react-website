@@ -61,9 +61,9 @@ function Home() {
               />
             </div>
         </Row>
-        <Row className="justify-content-center bg-light">
+        <Row className="justify-content-center">
           <Col xs={12} className="text-center">
-          <a
+            <a
               href="https://docs.google.com/document/d/1eRqe_0ns3AVT1pVvMx1tjadKnTBAivWp/export?format=pdf"
               className="btn btn-primary my-3"
               target="_blank"
@@ -77,6 +77,7 @@ function Home() {
               width="100%"
               height="925px"
               title="Mason Gillespie Resume"
+              className="d-none d-md-block bg-light mb-5"
             />
           </Col>
         </Row>
