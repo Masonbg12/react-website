@@ -8,12 +8,12 @@ function Navigation() {
   return (
     <Nav className="justify-content-center">
       <Nav.Item>
-        <Nav.Link href="tel:+13612305891" target="_blank" title="phone number">
+        <Nav.Link href="tel:+13612305891" target="_blank" title="361-230-5891">
           <FontAwesomeIcon icon={faPhone} size="lg" />
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="mailto:masonbg1206@gmail.com" target="_blank" title="email">
+        <Nav.Link href="mailto:masonbg1206@gmail.com" target="_blank" title="masonbg1206@gmail.com">
           <FontAwesomeIcon icon={faEnvelope} size="lg" />
         </Nav.Link>
       </Nav.Item>
